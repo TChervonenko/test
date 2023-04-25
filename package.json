@@ -1,0 +1,32 @@
+{
+  "name": "npm_practice",
+  "version": "1.0.0",
+  "description": "* Создаем репозиторий на github\r * Через консоль клонируем его себе на ПК\r * Через консоль создаем файл index.js в корне проекта\r * В этом файле реализовать функции: суммирования, вычитания и умножения\r * Инициализируем npm (npm init) и заполняем все поля\r * Устанавливаем в проект пакет lodash\r * Создаем файл .gitignore и добавляем в него все что не должно попасть на github это точно папка node_modules и другие системные папки которые у вам есть, например .vscode , .idea\r * Добавьте prettier в проект\r * Запустите его через npx, посмотрите какие файлы были изменены\r * Установите eslint в проект\r * Выполните инициализацию с правилами airbnb\r * Запустите линтер на файлах проекта, исправьте замечания \r * Через командую строку заливаем все что накодили на github",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TChervonenko/npm_practice.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "TChervonenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TChervonenko/npm_practice/issues"
+  },
+  "homepage": "https://github.com/TChervonenko/npm_practice#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "^2.8.8"
+  }
+}
